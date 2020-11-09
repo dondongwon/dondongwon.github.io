@@ -1,6 +1,6 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Dong Won (Don) Lee
+description: Machine Learning Student
+site_title: '@dongwonl'
 
 # Build settings
 markdown: kramdown
@@ -8,11 +8,11 @@ exclude: [vendor/ruby]
 
 # Personalization
 github_username: dondongwon
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+# blog_url: https://www.nagekar.com
+# email: abhishek@nagekar.com
+# keybase_username: abhn
+# twitter_username: abhn_
+# reddit_username: abhn
 
 # absolute or relative
 profile_picture: assets/images/pp.jpg
