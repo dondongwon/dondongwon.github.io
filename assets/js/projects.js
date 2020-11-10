@@ -14,7 +14,7 @@ let render_projects = (slug) => {
             image: 'assets/images/pats.png',
             link: 'http://chahuja.com/pats/',
             title: 'Pose-Audio-Transcript-Style Dataset',
-            demo: 'https://mporter.co',
+            demo: 'http://chahuja.com/pats/',
             technologies: ['Data Collection', 'Preprocessing', 'Data Cleaning'],
             description: "PATS was collected to study correlation of co-speech gestures with audio and text signals. The dataset consists of a diverse and large amount of aligned pose, audio and transcripts.",
             categories: ['featured', 'dataset']
@@ -37,6 +37,15 @@ let render_projects = (slug) => {
             description: "Our work on No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures, which was accepted to ECCV 2020",
             categories: ['featured', 'publications']
         },
+        {
+            image: 'assets/images/eccv.png',
+            link: 'https://github.com/chahuja/mix-stage',
+            title: 'Code Base for Gesture Style Transfer',
+            demo: 'https://github.com/chahuja/mix-stage',
+            technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
+            description: "Our work on No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures, which was accepted to ECCV 2020",
+            categories: ['featured', 'dataset']
+        }
 
     ]
 
