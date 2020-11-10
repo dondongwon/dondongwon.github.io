@@ -13,7 +13,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/pats.png',
             link: 'http://chahuja.com/pats/',
-            title: 'Pose-Audio-Transcript-Style Dataset',
+            title: 'PATS Dataset',
             demo: 'http://chahuja.com/pats/',
             technologies: ['Data Collection', 'Preprocessing', 'Data Cleaning'],
             description: "PATS was collected to study correlation of co-speech gestures with audio and text signals. The dataset consists of a diverse and large amount of aligned pose, audio and transcripts.",
@@ -22,7 +22,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/eccv.png',
             link: 'http://chahuja.com/mix-stage/',
-            title: 'ECCV 2020: Gesture Style Transfer',
+            title: 'Gesture Style Transfer',
             demo: 'http://chahuja.com/mix-stage/',
             technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
             description: "Our work on Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach, which was accepted to ECCV 2020",
@@ -31,7 +31,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/eccv.png',
             link: 'https://www.aclweb.org/anthology/2020.findings-emnlp.170.pdf',
-            title: 'Findings EMNLP 2020: Gesture Style Transfer',
+            title: 'Language-Based Gestures',
             demo: 'https://www.aclweb.org/anthology/2020.findings-emnlp.170.pdf',
             technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
             description: "Our work on No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures, which was accepted to ECCV 2020",
