@@ -62,16 +62,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/dondongwon/kinect-exercise-detection',
             technologies: ['Python'],
             description: "An application that anaylzes user's form when performing a squat and bench press.",
-            categories: ['all', 'Python']
-        },
-        {
-            image: 'assets/images/kinect_lift.png',
-            link: 'https://github.com/dondongwon/kinect-exercise-detection',
-            title: 'Exercise Correct Form Detector',
-            demo: 'https://github.com/dondongwon/kinect-exercise-detection',
-            technologies: ['Python'],
-            description: "An application that anaylzes user's form when performing a squat and bench press.",
-            categories: ['all', 'Python']
+            categories: ['all', 'misc']
         },
     ]
 
