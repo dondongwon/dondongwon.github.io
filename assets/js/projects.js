@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: 'http://chahuja.com/pats/',
             technologies: ['Data Collection', 'Preprocessing', 'Data Cleaning'],
             description: "PATS was collected to study correlation of co-speech gestures with audio and text signals. The dataset consists of a diverse and large amount of aligned pose, audio and transcripts.",
-            categories: ['featured', 'dataset']
+            categories: ['all', 'featured', 'dataset']
         },
         {
             image: 'assets/images/eccv.png',
@@ -26,7 +26,7 @@ let render_projects = (slug) => {
             demo: 'http://chahuja.com/mix-stage/',
             technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
             description: "Our work on Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach, which was accepted to ECCV 2020",
-            categories: ['featured', 'publications']
+            categories: ['all', 'featured', 'publications']
         },
         {
             image: 'assets/images/eccv.png',
@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             demo: 'https://www.aclweb.org/anthology/2020.findings-emnlp.170.pdf',
             technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
             description: "Our work on No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures, which was accepted to ECCV 2020",
-            categories: ['featured', 'publications']
+            categories: ['all', 'featured', 'publications']
         },
         {
             image: 'assets/images/eccv.png',
@@ -44,7 +44,7 @@ let render_projects = (slug) => {
             demo: 'https://github.com/chahuja/mix-stage',
             technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
             description: "Our work on No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures, which was accepted to ECCV 2020",
-            categories: ['featured', 'dataset']
+            categories: ['all', 'featured', 'dataset']
         }
 
     ]
