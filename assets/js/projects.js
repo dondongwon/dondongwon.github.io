@@ -29,7 +29,7 @@ let render_projects = (slug) => {
             categories: ['all', 'featured', 'publications']
         },
         {
-            image: 'assets/images/eccv.png',
+            image: 'assets/images/emnlp.png',
             link: 'https://www.aclweb.org/anthology/2020.findings-emnlp.170.pdf',
             title: 'Language-Based Gestures',
             demo: 'https://www.aclweb.org/anthology/2020.findings-emnlp.170.pdf',
@@ -38,15 +38,41 @@ let render_projects = (slug) => {
             categories: ['all', 'featured', 'publications']
         },
         {
-            image: 'assets/images/eccv.png',
+            image: 'assets/images/mixstage.png',
             link: 'https://github.com/chahuja/mix-stage',
             title: 'Code Base for Gesture Style Transfer',
             demo: 'https://github.com/chahuja/mix-stage',
             technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
-            description: "Our work on No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures, which was accepted to ECCV 2020",
+            description: "Code Base for ECCV 2020",
             categories: ['all', 'featured', 'dataset']
-        }
-
+        },
+        {
+            image: 'assets/images/medium.png',
+            link: 'https://medium.com/swlh/elegant-intuitions-behind-positional-encodings-dc48b4a4a5d1',
+            title: 'Medium Article on Positional Encodings',
+            demo: 'https://medium.com/swlh/elegant-intuitions-behind-positional-encodings-dc48b4a4a5d1',
+            technologies: ['ML'],
+            description: "My article on Positional Encodings",
+            categories: ['all', 'featured', 'ML']
+        },
+        {
+            image: 'assets/images/kinect_lift.png',
+            link: 'https://github.com/dondongwon/kinect-exercise-detection',
+            title: 'Exercise Correct Form Detector',
+            demo: 'https://github.com/dondongwon/kinect-exercise-detection',
+            technologies: ['Python'],
+            description: "An application that anaylzes user's form when performing a squat and bench press.",
+            categories: ['all', 'Python']
+        },
+        {
+            image: 'assets/images/kinect_lift.png',
+            link: 'https://github.com/dondongwon/kinect-exercise-detection',
+            title: 'Exercise Correct Form Detector',
+            demo: 'https://github.com/dondongwon/kinect-exercise-detection',
+            technologies: ['Python'],
+            description: "An application that anaylzes user's form when performing a squat and bench press.",
+            categories: ['all', 'Python']
+        },
     ]
 
     let projects = [];
