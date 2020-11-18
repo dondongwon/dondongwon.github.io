@@ -34,7 +34,7 @@ let render_projects = (slug) => {
             title: 'Language-Based Gestures',
             demo: 'https://www.aclweb.org/anthology/2020.findings-emnlp.170.pdf',
             technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
-            description: "Our work on No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures, which was accepted to ECCV 2020",
+            description: "Our work on No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures, which was accepted to EMNLP 2020",
             categories: ['all', 'featured', 'publications']
         },
         {
