@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'ECCV 2020: Gesture Style Transfer',
             demo: 'http://chahuja.com/mix-stage/',
             technologies: ['ML', 'CV', 'Multi-Modal ML'],
-            description: "Our work on Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach, which was accepted to ECCV 2020",
+            description: "HELLLOOOOOOOOOOOOOOOOOooOur work on Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach, which was accepted to ECCV 2020",
             categories: ['all', 'featured', 'publications']
         },
         {
