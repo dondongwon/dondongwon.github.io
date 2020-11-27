@@ -33,7 +33,7 @@ let render_projects = (slug) => {
             link: 'http://chahuja.com/pats/',
             title: 'PATS Dataset',
             demo: 'http://chahuja.com/pats/',
-            technologies: ['Data Collection', 'Preprocessing', 'Data Cleaning'],
+            technologies: ['Data Collection', 'Preprocessing'],
             description: "PATS was collected to study correlation of co-speech gestures with audio and text signals. The dataset consists of a diverse and large amount of aligned pose, audio and transcripts.",
             categories: ['all', 'featured', 'dataset']
         },
