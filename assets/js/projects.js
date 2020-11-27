@@ -12,9 +12,9 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/eccv.png',
-            link: 'http://chahuja.com/mix-stage/',
+            link: 'https://arxiv.org/abs/2007.12553',
             title: '[Paper] ECCV 2020: Gesture Style Transfer',
-            demo: 'http://chahuja.com/mix-stage/',
+            demo: 'https://arxiv.org/abs/2007.12553',
             technologies: ['ML', 'CV', 'Multi-Modal ML'],
             description: "Our work on Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach, which was accepted to ECCV 2020",
             categories: ['all', 'featured', 'publications']
@@ -55,6 +55,15 @@ let render_projects = (slug) => {
             demo: 'https://medium.com/swlh/elegant-intuitions-behind-positional-encodings-dc48b4a4a5d1',
             technologies: ['ML'],
             description: "My Medium on Positional Encodings, which was selected by Medium curators to be posted on main page for Machine Learning",
+            categories: ['all', 'featured', 'ML']
+        },
+        {
+            image: 'assets/images/medium.png',
+            link: 'http://chahuja.com/mix-stage/',
+            title: '[Demo] ECCV 2020: Gesture Style Transfer',
+            demo: 'http://chahuja.com/mix-stage/',
+            technologies: ['ML'],
+            description: "Link to Demo for our MIX-Stage model, allowing style transfer for gestures",
             categories: ['all', 'featured', 'ML']
         },
         // {
