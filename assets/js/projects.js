@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'http://chahuja.com/mix-stage/',
             title: 'ECCV 2020: Gesture Style Transfer',
             demo: 'http://chahuja.com/mix-stage/',
-            technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
+            technologies: ['ML', 'CV', 'Multi-Modal ML'],
             description: "Our work on Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach, which was accepted to ECCV 2020",
             categories: ['all', 'featured', 'publications']
         },
@@ -24,7 +24,7 @@ let render_projects = (slug) => {
             link: 'https://www.aclweb.org/anthology/2020.findings-emnlp.170.pdf',
             title: 'EMNLP 2020: Language-Based Gestures',
             demo: 'https://www.aclweb.org/anthology/2020.findings-emnlp.170.pdf',
-            technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
+            technologies: ['ML', 'NLP', 'Multi-Modal ML'],
             description: "Our work on No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures, which was accepted to Findings at EMNLP 2020",
             categories: ['all', 'featured', 'publications']
         },
