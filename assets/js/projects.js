@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'ECCV 2020: Gesture Style Transfer',
             demo: 'http://chahuja.com/mix-stage/',
             technologies: ['ML', 'CV', 'Multi-Modal ML'],
-            description: "HELLLOOOOOOOOOOOOOOOOOooOur work on Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach, which was accepted to ECCV 2020",
+            description: "Our work on Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach, which was accepted to ECCV 2020",
             categories: ['all', 'featured', 'publications']
         },
         {
@@ -96,7 +96,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
 
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">YOYO</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}"></a>` : ''}</p>
                     </article>
 
 
