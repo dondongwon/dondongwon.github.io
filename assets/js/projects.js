@@ -29,6 +29,16 @@ let render_projects = (slug) => {
             categories: ['all', 'featured', 'publications']
         },
         {
+            image: 'assets/images/mixstage.png',
+            link: 'https://github.com/chahuja/mix-stage',
+            title: '[Code Base] ECCV 2020: Gesture Style Transfer',
+            demo: 'https://github.com/chahuja/mix-stage',
+            technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
+            description: "Code Base for ECCV 2020",
+            categories: ['all', 'featured', 'dataset']
+        },
+
+        {
             image: 'assets/images/pats.png',
             link: 'http://chahuja.com/pats/',
             title: 'PATS Dataset',
@@ -37,15 +47,7 @@ let render_projects = (slug) => {
             description: "PATS was collected to study correlation of co-speech gestures with audio and text signals. The dataset consists of a diverse and large amount of aligned pose, audio and transcripts.",
             categories: ['all', 'featured', 'dataset']
         },
-        {
-            image: 'assets/images/mixstage.png',
-            link: 'https://github.com/chahuja/mix-stage',
-            title: 'Code Base for Gesture Style Transfer',
-            demo: 'https://github.com/chahuja/mix-stage',
-            technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
-            description: "Code Base for ECCV 2020",
-            categories: ['all', 'featured', 'dataset']
-        },
+
         {
             image: 'assets/images/medium.png',
             link: 'https://medium.com/swlh/elegant-intuitions-behind-positional-encodings-dc48b4a4a5d1',
