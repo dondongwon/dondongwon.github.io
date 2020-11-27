@@ -55,15 +55,15 @@ let render_projects = (slug) => {
             description: "My article on Positional Encodings",
             categories: ['all', 'featured', 'ML']
         },
-        {
-            image: 'assets/images/kinect_lift.png',
-            link: 'https://github.com/dondongwon/kinect-exercise-detection',
-            title: 'Exercise Correct Form Detector',
-            demo: 'https://github.com/dondongwon/kinect-exercise-detection',
-            technologies: ['Python'],
-            description: "An application that anaylzes user's form when performing a squat and bench press.",
-            categories: ['all', 'misc']
-        },
+        // {
+        //     image: 'assets/images/kinect_lift.png',
+        //     link: 'https://github.com/dondongwon/kinect-exercise-detection',
+        //     title: 'Exercise Correct Form Detector',
+        //     demo: 'https://github.com/dondongwon/kinect-exercise-detection',
+        //     technologies: ['Python'],
+        //     description: "An application that anaylzes user's form when performing a squat and bench press.",
+        //     categories: ['all', 'misc']
+        // },
     ]
 
     let projects = [];
