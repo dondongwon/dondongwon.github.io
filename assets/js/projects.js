@@ -29,14 +29,16 @@ let render_projects = (slug) => {
             categories: ['all', 'featured', 'publications']
         },
         {
-            image: 'assets/images/mixstage.png',
-            link: 'https://github.com/chahuja/mix-stage',
-            title: '[Code Base] ECCV 2020: Gesture Style Transfer',
-            demo: 'https://github.com/chahuja/mix-stage',
-            technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
-            description: "Code Base for ECCV 2020",
-            categories: ['all', 'featured', 'dataset']
+            image: 'assets/images/eccv.png',
+            link: 'http://chahuja.com/mix-stage/',
+            title: '[Demo] ECCV 2020: Gesture Style Transfer',
+            demo: 'http://chahuja.com/mix-stage/',
+            technologies: ['ML'],
+            description: "Link to Demo for our MIX-Stage model, allowing style transfer for gestures",
+            categories: ['all', 'featured', 'ML']
         },
+
+
 
         {
             image: 'assets/images/pats.png',
@@ -49,6 +51,17 @@ let render_projects = (slug) => {
         },
 
         {
+            image: 'assets/images/mixstage.png',
+            link: 'https://github.com/chahuja/mix-stage',
+            title: '[Code Base] ECCV 2020: Gesture Style Transfer',
+            demo: 'https://github.com/chahuja/mix-stage',
+            technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
+            description: "Code Base for ECCV 2020",
+            categories: ['all', 'featured', 'dataset']
+        },
+
+
+        {
             image: 'assets/images/medium.png',
             link: 'https://medium.com/swlh/elegant-intuitions-behind-positional-encodings-dc48b4a4a5d1',
             title: '[Article] Key Intuition on Positional Encodings',
@@ -57,15 +70,7 @@ let render_projects = (slug) => {
             description: "My Medium on Positional Encodings, which was selected by Medium curators to be posted on main page for Machine Learning",
             categories: ['all', 'featured', 'ML']
         },
-        {
-            image: 'assets/images/medium.png',
-            link: 'http://chahuja.com/mix-stage/',
-            title: '[Demo] ECCV 2020: Gesture Style Transfer',
-            demo: 'http://chahuja.com/mix-stage/',
-            technologies: ['ML'],
-            description: "Link to Demo for our MIX-Stage model, allowing style transfer for gestures",
-            categories: ['all', 'featured', 'ML']
-        },
+
         // {
         //     image: 'assets/images/kinect_lift.png',
         //     link: 'https://github.com/dondongwon/kinect-exercise-detection',
