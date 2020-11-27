@@ -13,7 +13,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/eccv.png',
             link: 'https://arxiv.org/abs/2007.12553',
-            title: '[Paper] ECCV 2020: Gesture Style Transfer',
+            title: '[Paper] ECCV 2020: \n Gesture Style Transfer',
             demo: 'https://arxiv.org/abs/2007.12553',
             technologies: ['ML', 'CV', 'Multi-Modal ML'],
             description: "Our work on Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach, which was accepted to ECCV 2020",
@@ -31,7 +31,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/eccv.png',
             link: 'http://chahuja.com/mix-stage/',
-            title: '[Demo] ECCV 2020: Gesture Style Transfer',
+            title: '[Demo] ECCV 2020: \n Gesture Style Transfer',
             demo: 'http://chahuja.com/mix-stage/',
             technologies: ['ML'],
             description: "Link to Demo for our MIX-Stage model, allowing style transfer for gestures",
@@ -53,7 +53,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/mixstage.png',
             link: 'https://github.com/chahuja/mix-stage',
-            title: '[Code Base] ECCV 2020: Gesture Style Transfer',
+            title: '[Code Base] ECCV 2020: \n Gesture Style Transfer',
             demo: 'https://github.com/chahuja/mix-stage',
             technologies: ['ML', 'NLP', 'CV', 'Multi-Modal ML'],
             description: "Code Base for ECCV 2020",
