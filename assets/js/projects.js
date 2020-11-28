@@ -22,7 +22,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/emnlp.png',
             link: 'https://www.aclweb.org/anthology/2020.findings-emnlp.170.pdf',
-            title: '[Paper] EMNLP 2020: Language-Based Gestures',
+            title: '[Paper] EMNLP 2020: \n Language-Based Gestures',
             demo: 'https://www.aclweb.org/anthology/2020.findings-emnlp.170.pdf',
             technologies: ['ML', 'NLP', 'Multi-Modal ML'],
             description: "Our work on No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures, which was accepted to Findings at EMNLP 2020",
@@ -34,7 +34,7 @@ let render_projects = (slug) => {
             title: '[Demo] ECCV 2020: \n Gesture Style Transfer',
             demo: 'http://chahuja.com/mix-stage/',
             technologies: ['ML'],
-            description: "Link to Demo for our MIX-Stage model, allowing style transfer for gestures",
+            description: "Link to the demo for our MIX-Stage model, allowing style transfer for gestures",
             categories: ['all', 'featured', 'ML']
         },
 
